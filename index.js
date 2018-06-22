@@ -13,8 +13,8 @@ console.log(lowerCaseStudentNames(['Adele', 'Beyoncé', 'Lady', 'Madonna', 'Riha
 
 function nameToAttributes(names){
   return names.map(function (celebrity){
-    let first=celebrity.split(" ")[0] //splits up string by spaces
-    let last=celebrity.split(" ")[1]
+    const first=celebrity.split(" ")[0] //splits up string by spaces
+    const last=celebrity.split(" ")[1]
     return { firstName:first, lastName:last}
   })
 }
